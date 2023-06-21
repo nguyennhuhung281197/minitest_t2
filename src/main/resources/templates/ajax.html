@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<form>
+    <input type="text" id="name">
+    <button type="button" onclick="search()">Search</button>
+</form>
+
+<!--<input type="text" id="searchNameInput" />-->
+<!--<select id="categorySelect">-->
+<!--    <option id="a"></option>-->
+<!--</select>-->
+<!--<button onclick="searchOption()">Search</button>-->
+
+    <button onclick="searchOption()">Click</button>
+
+<script>
+    $(document).ready(function () {
+        showListPicture();
+    });
+</script>
+<button onclick="showListPicture()">Show List Picture</button>
+<button onclick="createListPicture()">Create List Picture</button>
+<div id="display"></div>
+
+</body>
+</html>
+<script src="ajax.js"></script>
